@@ -50,47 +50,38 @@ distributors across various industries, including fashion, electronics, grocery,
         'https://play.google.com/store/apps/details?id=com.innerix.wiselearning',
   ),
   ProjectUtils(
-    image: 'assets/inpos.png',
+    image: 'assets/lak-amana.jpg',
     title: 'Lak Amana',
     subtitle:
-        '''Inpos is a comprehensive retail management system designed to help businesses manage their daily 
-operations efficiently. This app offers a range of features to streamline inventory management, sales 
-tracking, customer management, and reporting, making it an ideal solution for retailers, wholesalers, and 
-distributors across various industries, including fashion, electronics, grocery, and more.''',
+        '''Lakamana is an e-commerce platform designed to provide a unique shopping experience for the 
+Lakshadweep community. The app offers a wide range of products manufactured specifically for the 
+Lakshadweep people, including traditional clothing, handicrafts, and local specialties.''',
     androidLink:
-        'https://play.google.com/store/apps/details?id=com.innerix.inpos',
+        'https://play.google.com/store/apps/details?id=com.innerix.lakamana&hl=en-IN',
   ),
   ProjectUtils(
-    image: 'assets/inpos.png',
+    image: 'assets/vm-store.jpg',
     title: 'VM Store',
     subtitle:
         '''VM Store is an e-commerce platform designed to provide users with a seamless online shopping experience. 
 This app offers a wide range of products across various categories, allowing users to browse and purchase 
 products online, track orders, and manage their account information securely. By leveraging the VM Store 
-app, users can enjoy a convenient and seamless online shopping experience, access a wide range of products, 
-track orders, and manage account information securely.''',
+app, users can enjoy a convenient and seamless online shopping experience.''',
     androidLink:
         'https://play.google.com/store/apps/details?id=com.innerix.vmstore&hl=en-IN',
   ),
   ProjectUtils(
-    image: 'assets/inpos.png',
+    image: 'assets/ui.jpg',
     title: 'Toys App',
     subtitle:
-        '''Inpos is a comprehensive retail management system designed to help businesses manage their daily 
-operations efficiently. This app offers a range of features to streamline inventory management, sales 
-tracking, customer management, and reporting, making it an ideal solution for retailers, wholesalers, and 
-distributors across various industries, including fashion, electronics, grocery, and more.''',
-    androidLink:
-        'https://play.google.com/store/apps/details?id=com.innerix.inpos',
+        ''' A mobile application designed for showcasing toy businesses and advertisements in malls. The app serves as a digital platform where toy stores can promote their products, display ads, and attract customers through engaging visuals and interactive content. It provides businesses with the ability to target mall visitors with advertisements, special offers, and featured toy collections, enhancing visibility and driving sales.''',
+    androidLink: '',
   ),
   ProjectUtils(
-    image: 'assets/inpos.png',
-    title: 'Hifz',
+    image: 'assets/ui.jpg',
+    title: ' HR app',
     subtitle:
-        '''Inpos is a comprehensive retail management system designed to help businesses manage their daily 
-operations efficiently. This app offers a range of features to streamline inventory management, sales 
-tracking, customer management, and reporting, making it an ideal solution for retailers, wholesalers, and 
-distributors across various industries, including fashion, electronics, grocery, and more.''',
+        '''I A comprehensive Human Resources mobile application aimed at streamlining employee and HR operations. The app enables employees to submit leave requests, request official documents like salary and experience certificates, and access payroll information such as payslips and payment history. Additionally, it supports work task management and tracking for efficient workflow.''',
     androidLink:
         'https://play.google.com/store/apps/details?id=com.innerix.inpos',
   ),
