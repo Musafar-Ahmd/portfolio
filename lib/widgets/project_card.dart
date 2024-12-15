@@ -15,7 +15,7 @@ class ProjectCardWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       clipBehavior: Clip.antiAlias,
-      height: 450,
+      height: 460,
       width: 260,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
@@ -26,20 +26,35 @@ class ProjectCardWidget extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           // project img
-          Image.asset(
-            project.image,
-            height: 140,
-            width: 260,
-            fit: BoxFit.cover,
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(10), // Apply border radius
+                child: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10), // Optional, for clarity
+                  ),
+                  child: Image.asset(
+                    project.image,
+                    height: 100,
+                    width: 100,
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+            ),
           ),
-          // title
-          Padding(
-            padding: const EdgeInsets.fromLTRB(12, 15, 12, 12),
-            child: Text(
-              project.title,
-              style: const TextStyle(
-                fontWeight: FontWeight.w600,
-                color: CustomColor.whitePrimary,
+          //  title
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.fromLTRB(12, 15, 12, 12),
+              child: Text(
+                project.title,
+                style: const TextStyle(
+                  fontWeight: FontWeight.w600,
+                  color: CustomColor.whitePrimary,
+                ),
               ),
             ),
           ),

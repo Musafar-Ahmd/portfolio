@@ -4,7 +4,7 @@ import '../constants/colors.dart';
 
 class Footer extends StatelessWidget {
   const Footer({super.key});
-
+  
   @override
   Widget build(BuildContext context) {
     return Container(

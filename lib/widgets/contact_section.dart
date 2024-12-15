@@ -25,7 +25,6 @@ class ContactSection extends StatelessWidget {
               color: CustomColor.whitePrimary,
             ),
           ),
-
           const SizedBox(height: 50),
           ConstrainedBox(
             constraints: const BoxConstraints(

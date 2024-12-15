@@ -19,15 +19,14 @@ class ProjectUtils {
 // WORK PROJECTS
 List<ProjectUtils> workProjectUtils = [
   ProjectUtils(
-    image: 'assets/shumoo.png',
+    image: 'assets/shumo.png',
     title: 'Shumoo',
     subtitle:
         ''' Shumoo is an advanced ecommerce platform specializing in pharmaceuticals and cosmetics, serving 
 customers in the UAE with a wide range of high-quality products in these categories''',
     androidLink:
         'https://play.google.com/store/apps/details?id=com.alshumoo.ecom',
-    iosLink:
-        "https://apps.apple.com/kr/app/%EC%98%81%EC%96%B4%EB%A8%B8%EB%A6%AC-%EA%B3%B5%EC%9E%91%EC%86%8C/id1507102714",
+    iosLink: "https://apps.apple.com/ae/app/shumoo/id6480279795",
   ),
   ProjectUtils(
     image: 'assets/inpos.png',
@@ -41,13 +40,12 @@ distributors across various industries, including fashion, electronics, grocery,
         'https://play.google.com/store/apps/details?id=com.innerix.inpos',
   ),
   ProjectUtils(
-    image: 'assets/wise-learning.png',
-    title: 'Wise Learning',
+    image: 'assets/db.png',
+    title: 'Darul Bayyinah',
     subtitle:
-        '''Experienced in regularly updating project dependencies to the latest versions to ensure compatibility with 
-    the Flutter framework updates and to leverage new features and bug fixes introduced by the library maintainers.''',
+        '''Darul Bayyinah is an innovative Learning Management System (LMS) designed to empower tutors with tools to teach vocabulary, foster character development, and leverage text-to-speech technology. This platform enhances language learning by offering interactive exercises, quizzes, and progress tracking to help students expand their vocabulary effectively. Alongside linguistic skills, Darul Bayyinah integrates modules for character building.''',
     androidLink:
-        'https://play.google.com/store/apps/details?id=com.innerix.wiselearning',
+        'https://drive.google.com/drive/folders/1SOrIEnrI_bS1fukn4xxO0_ph2K3VtsmY',
   ),
   ProjectUtils(
     image: 'assets/lak-amana.jpg',
@@ -75,14 +73,14 @@ app, users can enjoy a convenient and seamless online shopping experience.''',
     title: 'Toys App',
     subtitle:
         ''' A mobile application designed for showcasing toy businesses and advertisements in malls. The app serves as a digital platform where toy stores can promote their products, display ads, and attract customers through engaging visuals and interactive content. It provides businesses with the ability to target mall visitors with advertisements, special offers, and featured toy collections, enhancing visibility and driving sales.''',
-    androidLink: '',
+    androidLink: 'https://drive.google.com/drive/folders/11mCmKZwncriKb9vDSqI9yF2ijrii1MVO',
   ),
   ProjectUtils(
-    image: 'assets/ui.jpg',
+    image: 'assets/axis.png',
     title: ' HR app',
     subtitle:
         '''I A comprehensive Human Resources mobile application aimed at streamlining employee and HR operations. The app enables employees to submit leave requests, request official documents like salary and experience certificates, and access payroll information such as payslips and payment history. Additionally, it supports work task management and tracking for efficient workflow.''',
-    androidLink:
-        'https://play.google.com/store/apps/details?id=com.innerix.inpos',
+    androidLink: '',
   ),
+
 ];
