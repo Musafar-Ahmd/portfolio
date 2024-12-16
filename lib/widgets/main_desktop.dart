@@ -13,6 +13,9 @@ class MainDesktop extends StatefulWidget {
 }
 
 class _MainDesktopState extends State<MainDesktop> {
+  final _url =
+      'https://drive.google.com/file/d/1rUd89CZjV0R34_uopZYTBK42bNaCJxSw/view?usp=sharing';
+
   @override
   Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context).size;
@@ -79,8 +82,13 @@ class _MainDesktopState extends State<MainDesktop> {
               SizedBox(
                 width: 250.0,
                 child: ElevatedButton(
-                  onPressed: () => openWhatsApp,
-                  child: const Text("Get in touch"),
+                  onPressed: () {
+                    _launchURL(_url);
+                  },
+                  child: const Text(
+                    "Download CV",
+                    style: TextStyle(color: Colors.black),
+                  ),
                 ),
               )
             ],
@@ -95,19 +103,11 @@ class _MainDesktopState extends State<MainDesktop> {
     );
   }
 
-  Future<void> openWhatsApp() async {
-    final String phoneNumber = "+919526232736";
-    final String message =
-        Uri.encodeComponent("Hello, I would like to get in touch with you.");
-    final String whatsappUrl = "https://wa.me/$phoneNumber?text=$message";
-
-    if (await canLaunch(whatsappUrl)) {
-      await launch(whatsappUrl);
+  void _launchURL(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
     } else {
-      // Handle the case when WhatsApp cannot be launched
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Unable to open WhatsApp")),
-      );
+      throw 'Could not launch $url';
     }
   }
 }

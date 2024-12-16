@@ -29,6 +29,15 @@ customers in the UAE with a wide range of high-quality products in these categor
     iosLink: "https://apps.apple.com/ae/app/shumoo/id6480279795",
   ),
   ProjectUtils(
+    image: 'assets/hope.png',
+    title: 'EnteHope',
+    subtitle:
+        'Ente Hope is an e-commerce app when users can purchase products and stand a chance to win exciting prices. The app offers a seamless shopping experience with  a variety of products and every purchase gives uses an opportunity to win special rewards',
+    androidLink:
+        'https://play.google.com/store/apps/details?id=com.draw.entehope',
+    iosLink: "https://apps.apple.com/in/app/ente-hope/id6593672835",
+  ),
+  ProjectUtils(
     image: 'assets/inpos.png',
     title: 'inPos',
     subtitle:
@@ -38,14 +47,6 @@ tracking, customer management, and reporting, making it an ideal solution for re
 distributors across various industries, including fashion, electronics, grocery, and more.''',
     androidLink:
         'https://play.google.com/store/apps/details?id=com.innerix.inpos',
-  ),
-  ProjectUtils(
-    image: 'assets/db.png',
-    title: 'Darul Bayyinah',
-    subtitle:
-        '''Darul Bayyinah is an innovative Learning Management System (LMS) designed to empower tutors with tools to teach vocabulary, foster character development, and leverage text-to-speech technology. This platform enhances language learning by offering interactive exercises, quizzes, and progress tracking to help students expand their vocabulary effectively. Alongside linguistic skills, Darul Bayyinah integrates modules for character building.''',
-    androidLink:
-        'https://drive.google.com/drive/folders/1SOrIEnrI_bS1fukn4xxO0_ph2K3VtsmY',
   ),
   ProjectUtils(
     image: 'assets/lak-amana.jpg',
@@ -69,18 +70,11 @@ app, users can enjoy a convenient and seamless online shopping experience.''',
         'https://play.google.com/store/apps/details?id=com.innerix.vmstore&hl=en-IN',
   ),
   ProjectUtils(
-    image: 'assets/ui.jpg',
+    image: 'assets/toys.png',
     title: 'Toys App',
     subtitle:
         ''' A mobile application designed for showcasing toy businesses and advertisements in malls. The app serves as a digital platform where toy stores can promote their products, display ads, and attract customers through engaging visuals and interactive content. It provides businesses with the ability to target mall visitors with advertisements, special offers, and featured toy collections, enhancing visibility and driving sales.''',
-    androidLink: 'https://drive.google.com/drive/folders/11mCmKZwncriKb9vDSqI9yF2ijrii1MVO',
+    androidLink:
+        'https://drive.google.com/drive/folders/11mCmKZwncriKb9vDSqI9yF2ijrii1MVO',
   ),
-  ProjectUtils(
-    image: 'assets/axis.png',
-    title: ' HR app',
-    subtitle:
-        '''I A comprehensive Human Resources mobile application aimed at streamlining employee and HR operations. The app enables employees to submit leave requests, request official documents like salary and experience certificates, and access payroll information such as payslips and payment history. Additionally, it supports work task management and tracking for efficient workflow.''',
-    androidLink: '',
-  ),
-
 ];
