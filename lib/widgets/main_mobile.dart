@@ -15,7 +15,7 @@ class MainMobile extends StatefulWidget {
 
 class _MainMobileState extends State<MainMobile> {
   final _url =
-      'https://drive.google.com/file/d/1rUd89CZjV0R34_uopZYTBK42bNaCJxSw/view?usp=sharing';
+      'https://drive.google.com/file/d/1ulo6ZqhkMhlb7JiNTbZJG8QXXMKztQ-d/view?usp=sharing';
 
   @override
   Widget build(BuildContext context) {
