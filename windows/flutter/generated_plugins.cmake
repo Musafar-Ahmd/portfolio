@@ -3,6 +3,8 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
+  geolocator_windows
+  sidebar_bigeagle
   url_launcher_windows
 )
 
